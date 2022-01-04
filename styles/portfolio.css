@@ -1,7 +1,48 @@
-h1 {
-  font-family: 'Noticia Text', serif;
+:root {
+  --heading-font-family: 'Notcia Text', serif; 
+  --default-font-family: 'Raleway', sans-serif;
+  --branding-color: #5c848e;
+  --secondary-color: #e0e0ec;
 }
 
-p{
-  font-family: 'Raleway', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font-family);
+}
+
+.hero {
+  background-color: #e0e0ec;
+  color: #1d2323;
+  padding-top: 140px;
+}
+
+.hero p{
+  font-family: var(--default-font-family);
+  font-size: 26px;
+}
+
+h1{
+  font-size: 70px;
+}
+
+.hero h3{
+  font-size: 35px;
+  margin: 15px;
+  font-family: var(--default-font-family);
+}
+
+.primary-button{
+  background-color: var(--branding-color);
+  margin: 20px;
+  border: 1px solid var(--branding-color);
+  border-radius: 85px;
+  padding: 15px; 
+  color: var(--secondary-color);
+  font-family: var(--default-font-family);
+font-size: 20px;
+}
+
+.primary-button:hover{
+  background-color: var(--secondary-color);
+  color: var(--branding-color);
 }
