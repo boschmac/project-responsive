@@ -57,6 +57,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--default-font-family);
 }
 
+footer {
+  margin: 60px 150px;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  border-radius: 20px;
+  padding: 10px 120px;
+}
+
+footer .contact-box h4 {
+font-size: 35px;
+}
+footer .contact-box p {
+  padding: 0;
+}
 .primary-button{
   margin: 20px;
   border: 1px solid var(--branding-color);
@@ -66,12 +82,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   background-color: var(--secondary-color);
   color: var(--branding-color);
+  transition: all 150ms ease-in-out;
 }
 
 .primary-button:hover{
   background-color: var(--branding-color);
   color: var(--secondary-color);
-  transition: all 0.5s ease-in-out;
 }
 
 .secondary-button {
@@ -82,13 +98,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   background-color: var(--branding-color);
   color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
 }
 
 .secondary-button:hover{
   color: var(--branding-color);
   background-color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
-  transition: all 0.5s ease-in-out;
 }
 
 @media (max-width: 900px) {
