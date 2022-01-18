@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
   background-color: var(--secondary-color);
   color: #1d2323;
-  padding-top: 140px;
+  padding: 140px;
 }
 
 .hero h1{
@@ -73,6 +73,25 @@ font-size: 35px;
 footer .contact-box p {
   padding: 0;
 }
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+footer .social-links {
+  font-size: 15px;
+}
+
+footer .social-links a {
+  text-decoration: none;
+  color:black;
+}
+
+footer .footer-link {
+  padding: 20px;
+}
 .primary-button{
   margin: 20px;
   border: 1px solid var(--branding-color);
@@ -121,7 +140,7 @@ h2 {
 }
 
 .hero {
-    padding:40px 20px 0px 20px;
+    padding:40px 20px 0px;
   }
 
 .hero p {
