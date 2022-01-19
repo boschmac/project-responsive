@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
   background-color: var(--secondary-color);
   color: #1d2323;
-  padding: 140px;
+  padding: 80px;
 }
 
 .hero h1{
@@ -67,7 +67,7 @@ footer .contact-box {
   padding: 10px 120px;
 }
 
-footer .contact-box h4 {
+footer .contact-box h3 {
 font-size: 35px;
 }
 footer .contact-box p {
